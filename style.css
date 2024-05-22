@@ -1,3 +1,37 @@
 body {
+  background-color: lightblue;
+}
+h1 {
+  color: darkblue;
+  font-size: 40px;
+  text-align: center;
+  text-color: white;
+ 
+}
 
+
+
+
+
+
+nav {
+  list-style-type: none;
+  background-color: darkblue;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  text-align: right;
+  color: lightblue
+
+}
+
+li: hover {
+  background: darkblue;
+}
+
+li{
+  display: inline;
+  padding: 16px;
 }

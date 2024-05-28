@@ -1,55 +1,53 @@
+<!DOCTYPE html>
 <html>
-  
-  <head>
-  </head>
-  
-  <body>
-      <nav>
-  <li><a href="homepage.html">  HOME </a></li>
-  <li><a href="dogapp.html"> DATA APP </a></li>
+<head>
+  <style>
+    body {
+      background-color: lightblue;
+      margin: 0; /* added to remove default margin */
+    }
+
+    h1 {
+      color: white;
+      font-size: 40px;
+      text-align: center;
+    }
+
+    nav {
+      list-style-type: none;
+      background-color: darkblue;
+      position: fixed;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      padding: 8px;
+      text-align: right;
+      color: lightblue;
+    }
+
+    nav li {
+      display: inline;
+      padding: 16px;
+    }
+
+    nav li:hover {
+      background: darkblue;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="homepage.html">HOME</a></li>
+      <li><a href="dogapp.html">DATA APP</a></li>
+    </ul>
   </nav>
-    <section id="dataapp">
-    <h1> Dog Breeds For You </h1>
-      <center>
-        
-     <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/E_obX4HiaJalDpZa8fb9naqd1asmpOIQI_F17ybngWR/embed?nosource"></iframe>
-        
-        
-body {
-  background-color: lightblue;
-}
-h1 {
-  color: darkblue;
-  font-size: 40px;
-  text-align: center;
-  text-color: white;
- 
-}
-
-
-
-
-
-
-nav {
-  list-style-type: none;
-  background-color: darkblue;
-  position: fixed;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  padding: 8px;
-  text-align: right;
-  color: lightblue
-
-}
-
-li: hover {
-  background: darkblue;
-}
-
-li{
-  display: inline;
-  padding: 16px;
-}
-
+  
+  <section id="dataapp">
+    <h1>Dog Breeds For You</h1>
+    <div style="text-align:center;">
+      <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/E_obX4HiaJalDpZa8fb9naqd1asmpOIQI_F17ybngWR/embed?nosource"></iframe>
+    </div>
+  </section>
+</body>
+</html>
